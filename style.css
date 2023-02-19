@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.main--container {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  height: 100vh;
+}
+
+.card--container {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.result {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  /* display: grid; */
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  height: 375px;
+  padding: 0 40px 0 40px;
+}
+.result h2 {
+  padding: 30px 0;
+}
+.score {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.score span:first-child {
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+}
+.score span:nth-child(2),
+.summary-score span:nth-child(2) {
+  color: hsl(241, 100%, 89%);
+}
+
+.conclusion p,
+.result h2 {
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+}
+.result h3 {
+  padding: 30px 0 15px 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+}
+
+.summary {
+  height: 375px;
+  top: -25px;
+  position: relative;
+  z-index: -1;
+  padding-top: 25px;
+}
+.summary > .title {
+  padding: 20px 30px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+}
+.summary--list {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  padding: 0 30px;
+}
+
+.summary-score {
+  font-weight: 800;
+}
+.summary-score span:first-child {
+  font-weight: 800;
+}
+
+.summary--title {
+  font-size: 18px;
+  display: flex;
+}
+.summary--title img {
+  margin-right: 10px;
+}
+.item {
+  padding: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.summary--reaction {
+  background: hsla(0, 100%, 67%, 0.1);
+}
+.summary--reaction > .summary--title {
+  color: hsl(0, 100%, 67%);
+}
+.summary--memory {
+  background: hsla(39, 100%, 56%, 0.1);
+}
+.summary--memory > .summary--title {
+  color: hsl(39, 100%, 56%);
+}
+.summary--verbal {
+  background: hsla(166, 100%, 37%, 0.1);
+}
+.summary--verbal > .summary--title {
+  color: hsl(166, 100%, 37%);
+}
+.summary--visual {
+  background: hsla(234, 85%, 45%, 0.1);
+}
+.summary--visual > .summary--title {
+  color: hsl(234, 85%, 45%);
+}

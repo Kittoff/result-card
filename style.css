@@ -111,25 +111,25 @@
 }
 
 .summary--reaction {
-  background: hsla(0, 100%, 67%, 0.1);
+  background: hsla(0, 100%, 67%, 0.05);
 }
 .summary--reaction > .summary--title {
   color: hsl(0, 100%, 67%);
 }
 .summary--memory {
-  background: hsla(39, 100%, 56%, 0.1);
+  background: hsla(39, 100%, 56%, 0.05);
 }
 .summary--memory > .summary--title {
   color: hsl(39, 100%, 56%);
 }
 .summary--verbal {
-  background: hsla(166, 100%, 37%, 0.1);
+  background: hsla(166, 100%, 37%, 0.05);
 }
 .summary--verbal > .summary--title {
   color: hsl(166, 100%, 37%);
 }
 .summary--visual {
-  background: hsla(234, 85%, 45%, 0.1);
+  background: hsla(234, 85%, 45%, 0.05);
 }
 .summary--visual > .summary--title {
   color: hsl(234, 85%, 45%);
